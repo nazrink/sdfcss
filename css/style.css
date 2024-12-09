@@ -1,0 +1,44 @@
+body {
+ margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container-box {
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid black;
+    margin: 5px 5px;
+    padding: 7px 7px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container-div {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.container-div input,textarea {
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+}
+
+#container {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+}
